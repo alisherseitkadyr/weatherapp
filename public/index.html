@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Weather Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+    <h1>City Weather Map</h1>
+    <label for="city-input">Enter City:</label>
+    <input type="text" id="city-input" placeholder="e.g. London" />
+    <button onclick="showWeather()">Show Weather</button>
+
+    <div id="map"></div>
+    <div id="weather-info"></div>
+    <div id="news-info" class="news"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js">
+    </script>
+</body>
+</html>
